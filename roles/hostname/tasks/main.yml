@@ -1,0 +1,5 @@
+- name: hostname_template
+  template:
+          src: hostname.j2
+          dest: /tmp/test2/myfile.txt
+
