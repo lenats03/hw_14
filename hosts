@@ -1,3 +1,8 @@
-[servers]
-node1 ansible_host= ansible_port=32769
-node2 ansible_host= ansible_port=32770
+[all_servers]
+node1 ansible_host=localhost ansible_port=49155
+node2 ansible_host=localhost ansible_port=49156
+[some_servers]
+first_server ansible_host=localhost ansible_port=49155
+[other_servers]
+second_server ansible_host=localhost ansible_port=49156
+
